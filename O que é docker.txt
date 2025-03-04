@@ -1,0 +1,19 @@
+Docker com python
+
+Docker é um programa para gerenciar um ecossistema para aplicar nosso programa de forma isolada do nosso computador
+
+Dentro do docker colocamos nossas aplicações, como banco de dados, códigos, configurações.
+
+As aplicações ficam dentro de containers, o container só existe para executar nossa aplicação. 
+
+Docker servirá como uma infraestrutura do projeto, fazendo com que containers se conversem. Desse modo se torna mais fácil levantar toda aplicação.
+
+As imagens são responsáveis pela configuração dos containers.
+
+Em resumo, o docker utiliza containers para executar aplicações e as imagens configuram os containers.
+
+Docker x Maquina Virtual
+
+Em ambas podem ser exercutadas de forma isolada, porém na maquina virtual se utiliza de mais coisas que não são necessários, como drivers de som, interface gráfica e entre outros. Existe também VM que são apenas CLI, o problema está no propósito da VM onde ela tem o objetivo de executar o sistema operacional do que executar a aplicação, enquanto o docker tem o propósito de rodar aplicação.
+
+
