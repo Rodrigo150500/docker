@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from .src import UserRepo
+from src import UserRepo
 
 app = Flask(__name__)
 
